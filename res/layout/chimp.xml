@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#00c0c6">
+    
+    
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/how_do_u_look" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="#c2bc0d"
+        android:layout_below="@+id/imageView5"
+        android:layout_above="@+id/imageButton4"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_above="@+id/imageButton4"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" 
+        android:src="@drawable/chimp_2"/>
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/icon"
+        android:src="@drawable/icon" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageButton4"
+        android:background="#b9b9bb"
+        android:text="Play again"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+ 
+
+    
+
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:text="		      Name: Chimpopo Chimpania"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:text="Don&apos;t leave your friends out of this fun.."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+    
+</RelativeLayout>
